@@ -1,6 +1,6 @@
 """Constants used through the simulation."""
 
-BOUNDS_WIDTH: int = 400
+BOUNDS_WIDTH: int = 800
 MAX_X: float = BOUNDS_WIDTH / 2
 MIN_X: float = -MAX_X
 VIEW_WIDTH: int = BOUNDS_WIDTH + 20
@@ -11,5 +11,5 @@ MIN_Y: float = -MAX_Y
 VIEW_HEIGHT: int = BOUNDS_HEIGHT + 20
 
 CELL_RADIUS: int = 15
-CELL_COUNT: int = 1
+CELL_COUNT: int = 2
 CELL_SPEED: float = 5.0

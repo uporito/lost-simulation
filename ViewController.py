@@ -1,7 +1,7 @@
 """The ViewController drives the visualization of the simulation.""" 
 
 from turtle import Turtle, Screen, done
-import model
+from model import Model
 import constants
 from typing import Any
 from time import time_ns
@@ -14,9 +14,9 @@ class ViewController:
     """This class is responsible for controlling the simulation and visualizing it."""
     screen: Any
     pen: Turtle
-    model: model
+    model: Model
 
-    def __init__(self, model: model):
+    def __init__(self, model: Model):
         """Initialize the VC."""
         self.model = model
         self.screen = Screen()
